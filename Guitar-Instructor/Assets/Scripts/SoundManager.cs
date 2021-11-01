@@ -34,7 +34,9 @@ public static class SoundManager
 
     public static bool IsPLaying()
     {
-       return audioSource == null ? false : true;
+        if(audioSource)
+            return audioSource.isPlaying;
+        return false;
     }
 
     private static AudioClip GetAudioClip(Chord chord)

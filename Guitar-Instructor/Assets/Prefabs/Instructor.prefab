@@ -3780,6 +3780,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66a911cdb7986f4aa4b6dbd5677fcff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minFov: 7
+  maxFov: 40
+  sensitivity: 15
+  damping: 0.5
+  targetHand: {fileID: 6055366133236774777}
+  targetBody: {fileID: 8461908226718274737}
+  followCamera: {fileID: 0}
 --- !u!1 &3986314535379927861
 GameObject:
   m_ObjectHideFlags: 0
